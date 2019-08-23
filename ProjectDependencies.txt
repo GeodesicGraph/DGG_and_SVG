@@ -1,0 +1,44 @@
+Project DGG_precompute (Precomputation) Dependencies:
+
+Header files:
+    |-- ..\src\dgg_buffer.h
+    |-- ..\src\DGG_precompute\dgg_precompute.h
+    |-- ..\src\DGG_precompute\FastDGG.h
+    |-- ..\src\DGG_precompute\SVG.h
+    |-- ..\src\dgg_time.h
+    |-- ..\src\ICH\BaseModel.h
+    |-- ..\src\ICH\ExactMethodForDGP.h
+    |-- ..\src\ICH\ImprovedCHWithEdgeValve.h
+    |-- ..\src\ICH\Point3D.h
+    |-- ..\src\ICH\PreviousCH.h
+    |-- ..\src\ICH\RichModel.h
+    |-- ..\src\dgg_definition.h
+	
+Source files:
+    |-- ..\src\DGG_precompute\FastDGG.cpp
+    |-- ..\src\DGG_precompute\main.cpp
+    |-- ..\src\DGG_precompute\dgg_precompute.cpp
+    |-- ..\src\DGG_precompute\SVG.cpp
+    |-- ..\src\ICH\BaseModel.cpp
+    |-- ..\src\ICH\ExactMethodForDGP.cpp
+    |-- ..\src\ICH\ImprovedCHWithEdgeValve.cpp
+    |-- ..\src\ICH\Point3D.cpp
+    |-- ..\src\ICH\PreviousCH.cpp
+    |-- ..\src\ICH\RichModel.cpp
+	
+Project DGG_LC (Solution) Dependencies:
+
+Header files:
+	|-- ..\src\DGG_LC\dgg_lc.cpp
+    |-- ..\src\ICH\BaseModel.cpp
+    |-- ..\src\ICH\Point3D.cpp
+    |-- ..\src\ICH\RichModel.cpp
+
+Source files:
+    |-- ..\src\dgg_buffer.h
+    |-- ..\src\dgg_definition.h
+    |-- ..\src\dgg_dijkstra.h
+    |-- ..\src\dgg_time.h
+    |-- ..\src\ICH\BaseModel.h
+    |-- ..\src\ICH\Point3D.h
+    |-- ..\src\ICH\RichModel.h
