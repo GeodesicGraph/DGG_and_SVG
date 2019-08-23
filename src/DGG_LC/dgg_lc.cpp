@@ -37,8 +37,9 @@ void writeVectorToFile(const string& file_name, const vector<double>& vec)
 }
 
 template <class T>
-void get_distance(const string& obj_file_name, const string& DGG_file_name, const string& method, const string& source_filename, const string& out_filename)
+void get_distance(const string& obj_file_name, const string& DGG_file_name, const string& source_filename, const string& out_filename)
 {
+	const string method = "dij";
 	CRichModel rich_model(obj_file_name);
 	rich_model.Preprocess();
 	SparseGraph<T>* s_graph = NULL;
@@ -69,8 +70,9 @@ void get_distance(const string& obj_file_name, const string& DGG_file_name, cons
 }
 
 template <class T>
-void get_distance(const string& obj_file_name, const string& DGG_file_name, const string& method, int source_vert, const string& out_filename)
+void get_distance(const string& obj_file_name, const string& DGG_file_name, int source_vert, const string& out_filename)
 {
+	const string method = "dij";
 	CRichModel rich_model(obj_file_name);
 	rich_model.Preprocess();
 	T al = 1.0;
@@ -108,17 +110,15 @@ int main(int argc, char** argv)
 		obj_file_name = argv[2];
 		dgg_file_name = argv[3];
 		int source_vert = atoi(argv[4]);
-		string method = argv[5];
-		string out_file_name = argv[6];
-		get_distance<float>(obj_file_name, dgg_file_name, method, source_vert, out_file_name);
+		string out_file_name = argv[5];
+		get_distance<float>(obj_file_name, dgg_file_name, source_vert, out_file_name);
 	}
 	else if (string(argv[1]) == "MSAD") {
 		obj_file_name = argv[2];
 		dgg_file_name = argv[3];
 		string source_file = argv[4];
-		string method = argv[5];
-		string out_file_name = argv[6];
-		get_distance<float>(obj_file_name, dgg_file_name, method, source_file, out_file_name);
+		string out_file_name = argv[5];
+		get_distance<float>(obj_file_name, dgg_file_name, source_file, out_file_name);
 	}
 	return 0;
 }
