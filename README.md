@@ -33,9 +33,9 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	DGG_Precompute [method] [model] [accuracy_control_parameter] [number_of_threads]
 	```
 	
-	- method: 'f' for FastDGG or 's' for SVG
-	- model: .obj/.off format mesh file
-	- accuracy_control_parameter: an expected relative mean error (0.01 represents 1%)
+	- method: `'f'` for FastDGG or `'s'` for SVG
+	- model: `.obj/.off` format mesh file
+	- accuracy_control_parameter: an expected relative mean error (`0.01` represents 1%)
 	- number_of_threads: using multiple threads to accelerate the process
 
 	Example command line:
@@ -53,10 +53,10 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	DGG_Solution [method] [model] [graph_binary_file] [source] [output_distance_file]  
 	```
 	
-	- method: 'SSAD' for single-source-all-destination or 'MSAD' for multiple-source-all-destination
-	- model: .obj/.off format mesh file
-	- graph_binary_file: the precomputed geodesic graph in .binary format
-	- source: 0-based source vertex id or source file name for multiple sources
+	- method: `'SSAD'` for single-source-all-destination or `'MSAD'` for multiple-source-all-destination
+	- model: `.obj/.off` format mesh file
+	- graph_binary_file: the precomputed geodesic graph in `.binary` format
+	- source: 0-based source `vertex id` for single source or source `file name` for multiple sources
 	- output_distance_file: a file saving the distance field
 	
 	Example command line:
