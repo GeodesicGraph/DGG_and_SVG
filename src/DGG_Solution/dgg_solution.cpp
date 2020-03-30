@@ -16,11 +16,9 @@ void readSources(const string& file_name, vector<int>& vector_file)
 	fscanf(file, "%d", &n);
 	vector_file.clear();
 	vector_file.resize(n);
+	int d;
 	for (int i = 0; i < n; ++i) {
-		int d;
-		//fscanf(file, "%*d%d", &d);
 		fscanf(file, "%d", &d);
-		//d -= 1;
 		vector_file[i] = d;
 	}
 	fclose(file);
@@ -66,7 +64,6 @@ void get_distance(const string& obj_file_name, const string& DGG_file_name, cons
 	//STDERR Solving time
 	fprintf(stderr, "%lf\n", average_time);
 	writeVectorToFile(out_filename, current_dis);
-	//writeMaxToFile(rich_model, current_dis, DGG_file_name.substr(0, DGG_file_name.length() - 7) + "_texture.obj");
 }
 
 template <class T>
@@ -99,7 +96,6 @@ void get_distance(const string& obj_file_name, const string& DGG_file_name, int 
 	//STDERR Solving time
 	fprintf(stderr, "%.10lf\t", average_time);
 	writeVectorToFile(out_filename, current_dis);
-	//writeMaxToFile(rich_model, current_dis, DGG_file_name.substr(0, DGG_file_name.length() - 7) + "_texture.obj");
 }
 
 int main(int argc, char** argv)
