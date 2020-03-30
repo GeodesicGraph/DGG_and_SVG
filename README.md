@@ -8,20 +8,23 @@ YOHANES YUDHI ADIKUSUMA, ZHENG FANG, and YING HE, Nanyang Technological U
 ACM Trans. Graph., Vol. 39, No. 2, Article 14, Publication date: March 2020.
 ```
 
-A more efficient method for constructing Discrete Geodesic Graph (DGG)—a sparse graph for computing approximate discrete geodesics on triangle meshes.
+A more efficient method for constructing Discrete Geodesic Graph (DGG)—a sparse graph for computing approximate discrete geodesics on triangle meshes. This code also includes the implementation of Saddle Vertex Graph (SVG).
 
+---
 ### Compling the code
 
-1. The code has been tested on the following systems:
+1. Please check `ProjectDependencies.txt` for the configuration of the project
+
+2. The code has been tested on:
 
 	- Windows 10 with Microsoft Visual Studio 2017 and 2015
 	
-2. The code implements the following three commands:
+3. The code implements the following commands:
 
 	- `DGG_Precompute` for computing the geodesic graph
 	- `DGG_Solution` for computing geodesic distance (single-source-all-destination or multiple-source-all-destination)
 
-
+---
 ### Usage of commands
 
 1. To compute the geodesic graph, use the command
@@ -64,11 +67,10 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	
 	This command generates the distance field `bunny.distance.txt`.
 
-
+---
 ### Citation
 Please cite these two papers if you use this code:
 
----
 ```BibTeX
 @article{10.1145/3144567,
 author = {Adikusuma, Yohanes Yudhi and Fang, Zheng and He, Ying},
@@ -89,7 +91,7 @@ numpages = {14},
 keywords = {geodesic path, Geodesic distance, anisotropic meshes, accuracy-aware window propagation, discrete geodesic graph, polyhedral surfaces, complexity analysis}
 }
 ```
----
+
 ```BibTeX
 @article{10.1145/2508363.2508379,
 author = {Ying, Xiang and Wang, Xiaoning and He, Ying},
