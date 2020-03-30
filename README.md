@@ -37,7 +37,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	
 	- method: `'f'` for FastDGG or `'s'` for SVG
 	- model: `.obj/.off` format mesh file
-	- accuracy_control_parameter: an expected relative mean error $\epsilon$ (`'0.01'` represents $\epsilon = 1%$)
+	- accuracy_control_parameter: an expected relative mean error `\( \varepsilon \ E \)` (`'0.01'` represents `\( \varepsilon \ E \) = 1%`)
 	- number_of_threads: using multiple threads to accelerate the process
 
 	Example command line:
