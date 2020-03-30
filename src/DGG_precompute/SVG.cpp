@@ -1,4 +1,4 @@
-// ICHWithFurtherPriorityQueue.cpp: implementation of the CICHWithFurtherPriorityQueue class.
+// SVG.cpp: implementation of the CSVG class.
 //
 //////////////////////////////////////////////////////////////////////
 
