@@ -1,5 +1,7 @@
 ## GeodesicGraph
 
+![alt text](https://github.com/GeodesicGraph/GeodesicGraph/blob/master/error_map_on_anisotropic_mesh.png)
+
 This is the source code for the graph-based discrete geodesic algorithms in the following paper:
 
 ```
@@ -35,7 +37,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	
 	- method: `'f'` for FastDGG or `'s'` for SVG
 	- model: `.obj/.off` format mesh file
-	- accuracy_control_parameter: an expected relative mean error (`'0.01'` represents 1%)
+	- accuracy_control_parameter: an expected relative mean error $\epsilon$ (`'0.01'` represents $\epsilon = 1%$)
 	- number_of_threads: using multiple threads to accelerate the process
 
 	Example command line:
