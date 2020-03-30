@@ -41,7 +41,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	Example command line:
 	
 	```Batchfile
-	DGG_Precompute.exe f bunny.obj 0.01 8 
+	DGG_Precompute f bunny.obj 0.01 8 
 	```
 	
 	This command generates the precomputed geodesic graph `bunny_FD0.0100000000_c5.binary`.
@@ -50,7 +50,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 2. To compute the geodesic distance, use the command
  
 	```Batchfile
-	DGG_Solution.exe [method] [model] [graph_binary_file] [source] [output_distance_file]  
+	DGG_Solution [method] [model] [graph_binary_file] [source] [output_distance_file]  
 	```
 	
 	- method: 'SSAD' for single-source-all-destination or 'MSAD' for multiple-source-all-destination
@@ -62,7 +62,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	Example command line:
 	
 	```Batchfile
-	DGG_Solution.exe SSAD bunny.obj bunny_FD0.0100000000_c5.binary 0 bunny.distance.txt
+	DGG_Solution SSAD bunny.obj bunny_FD0.0100000000_c5.binary 0 bunny.distance.txt
 	```
 	
 	This command generates the distance field `bunny.distance.txt`.
