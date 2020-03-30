@@ -2,9 +2,11 @@
 
 This is the source code for the graph-based discrete geodesic algorithms in the following paper:
 
-* Fast Construction of Discrete Geodesic Graphs
+```
+Fast Construction of Discrete Geodesic Graphs
 YOHANES YUDHI ADIKUSUMA, ZHENG FANG, and YING HE, Nanyang Technological University
 ACM Trans. Graph., Vol. 39, No. 2, Article 14, Publication date: March 2020.
+```
 
 A more efficient method for constructing Discrete Geodesic Graph (DGG)—a sparse graph for computing approximate discrete geodesics on triangle meshes.
 
@@ -16,8 +18,8 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	
 2. The code implements the following three commands:
 
-	* `DGG_Precompute` for computing the geodesic graph;
-	* `DGG_Solution` for computing geodesic distance (single-source-all-destination or multiple-source-all-destination);
+	* `DGG_Precompute` for computing the geodesic graph
+	* `DGG_Solution` for computing geodesic distance (single-source-all-destination or multiple-source-all-destination)
 
 
 ### Usage of commands
@@ -29,13 +31,13 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	* method: 'f' for FastDGG or 's' for SVG
 	* model: .obj/.off format mesh file
 	* accuracy_control_parameter: an expected relative mean error (0.01 represents 1%)
-	* number_of_threads: using multiple threads to accelerate the process.
+	* number_of_threads: using multiple threads to accelerate the process
 
 	Example command line:
 	
 		$ DGG_Precompute.exe f bunny.obj 0.01 8 
 	
-	This command generates the precomputed geodesic graph `bunny_FD0.0100000000_c5.binary`
+	This command generates the precomputed geodesic graph `bunny_FD0.0100000000_c5.binary`.
 
 
 2. To compute the geodesic distance, use the command
@@ -52,14 +54,14 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 	
 		$ DGG_Solution.exe SSAD bunny.obj bunny_FD0.0100000000_c5.binary 0 bunny.distance.txt
 	
-	This command generates the distance field `bunny.distance.txt`
+	This command generates the distance field `bunny.distance.txt`.
 
 
 ### Citation
 Please cite these two papers if you use this code:
 
 ***
-
+```BibTeX
 @article{10.1145/3144567,
 author = {Adikusuma, Yohanes Yudhi and Fang, Zheng and He, Ying},
 title = {Fast Construction of Discrete Geodesic Graphs},
@@ -78,9 +80,9 @@ articleno = {Article 14},
 numpages = {14},
 keywords = {geodesic path, Geodesic distance, anisotropic meshes, accuracy-aware window propagation, discrete geodesic graph, polyhedral surfaces, complexity analysis}
 }
-
+```
 ***
-
+```BibTeX
 @article{10.1145/2508363.2508379,
 author = {Ying, Xiang and Wang, Xiaoning and He, Ying},
 title = {Saddle Vertex Graph (SVG): A Novel Solution to the Discrete Geodesic Problem},
@@ -99,3 +101,4 @@ articleno = {Article 170},
 numpages = {12},
 keywords = {shortest path, discrete geodesic, saddle vertex graph}
 }
+```
