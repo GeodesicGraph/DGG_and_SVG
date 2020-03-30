@@ -1,7 +1,5 @@
 ## GeodesicGraph
 
-![alt text](https://github.com/GeodesicGraph/GeodesicGraph/blob/master/error_map_on_anisotropic_mesh.png)
-
 This is the source code for the graph-based discrete geodesic algorithms in the following paper:
 
 ```
@@ -11,6 +9,8 @@ ACM Trans. Graph., Vol. 39, No. 2, Article 14, Publication date: March 2020.
 ```
 
 A more efficient method for constructing Discrete Geodesic Graph (DGG)—a sparse graph for computing approximate discrete geodesics on triangle meshes. This code also includes the implementation of Saddle Vertex Graph (SVG).
+
+![alt text](https://github.com/GeodesicGraph/GeodesicGraph/blob/master/error_map_on_anisotropic_mesh.png)
 
 ---
 ### Compling the code
