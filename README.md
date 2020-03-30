@@ -14,7 +14,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 
 1. The code has been tested on the following systems:
 
-	- Windows 10 with Microsoft Visual Studio 2017 and 2015;
+	- Windows 10 with Microsoft Visual Studio 2017 and 2015
 	
 2. The code implements the following three commands:
 
