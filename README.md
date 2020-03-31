@@ -1,4 +1,4 @@
-## GeodesicGraph
+## GeodesicGraph: DGG and SVG
 
 This is the source code for the graph-based discrete geodesic algorithms in the following paper:
 
