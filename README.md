@@ -71,7 +71,7 @@ A more efficient method for constructing Discrete Geodesic Graph (DGG)—a spars
 
 ---
 ### Citation
-Please cite these two papers if you use this code:
+Please cite the following paper if you use FastDGG:
 
 ```BibTeX
 @article{10.1145/3144567,
@@ -93,6 +93,8 @@ numpages = {14},
 keywords = {geodesic path, Geodesic distance, anisotropic meshes, accuracy-aware window propagation, discrete geodesic graph, polyhedral surfaces, complexity analysis}
 }
 ```
+
+Please cite the following paper if you use SVG:
 
 ```BibTeX
 @article{10.1145/2508363.2508379,
