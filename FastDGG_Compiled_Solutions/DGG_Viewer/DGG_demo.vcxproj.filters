@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{ddb2d54c-f6ad-42a4-81d5-77e8e40d4ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RMS_LIB">
+      <UniqueIdentifier>{7b886500-e46b-4b46-8c87-23fb4e1dd3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{fb24f7c1-0446-48bb-b65b-522c8dea1c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigLib">
+      <UniqueIdentifier>{81f910fc-ac1b-48d3-b13a-13210a307d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DGG">
+      <UniqueIdentifier>{c9456e18-2225-415f-8e3a-3b1d5ec61a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{8c9c11d5-65bf-44dc-b484-5ebf4fa09e53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\canvas\Communicate.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\canvas\dxfrenderer.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\canvas\main.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\canvas\Panels.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\canvas\test_canvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\canvas\trackball.c">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\viewer\arcball.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\viewer\Geometry.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\viewer\Quat.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\viewer\RgbImage.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\viewer\Viewer.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\BaseModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Geometry.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Point3D.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\RichModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\ConfigLib\color.cpp">
+      <Filter>ConfigLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\ConfigLib\configfile.cpp">
+      <Filter>ConfigLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\ConfigLib\configitem_base.cpp">
+      <Filter>ConfigLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\ConfigLib\ipaddress.cpp">
+      <Filter>ConfigLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\ExtendedWmlCamera.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\Frame.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\IMesh.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\IMeshBVTree.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\MeshObject.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\MeshUtils.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\Texture.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\VectorUtil.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\VFMeshRenderer.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\VFTriangleMesh.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\WmlExtPlane3.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\RMS_LIB\WmlPolygon2.cpp">
+      <Filter>RMS_LIB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\canvas\Communicate.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\canvas\dxfrenderer.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\canvas\main.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\canvas\Panels.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\canvas\test_canvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\canvas\trackball.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\viewer\arcball.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\viewer\Geometry.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\viewer\Quat.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\viewer\RgbImage.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\viewer\Viewer.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_dijkstra.h">
+      <Filter>DGG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_time.h">
+      <Filter>DGG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_util.h">
+      <Filter>DGG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\BaseModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Geometry.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Point3D.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\RichModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\color.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configenum.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configfile.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configitem.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configitem_base.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configmap.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configsection.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\configvector.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\ConfigLib\ipaddress.h">
+      <Filter>ConfigLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\DynamicVector.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\ExtendedWmlCamera.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\Frame.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\IMesh.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\IMeshBVTree.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\MemoryPool.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\MeshObject.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\MeshUtils.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\ParticleGrid.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\RefCountedVector.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\rmsdebug.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\rmsprofile.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\SparseArray.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\Texture.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\VectorUtil.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\VFMeshRenderer.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\VFTriangleMesh.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\WmlExtPlane3.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\RMS_LIB\WmlPolygon2.h">
+      <Filter>RMS_LIB</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

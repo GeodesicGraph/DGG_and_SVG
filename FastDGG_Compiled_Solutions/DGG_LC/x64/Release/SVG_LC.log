@@ -1,0 +1,41 @@
+﻿  dgg_lc.cpp
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_time.h(18): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_time.h(73): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\src\DGG_LC\dgg_lc.cpp(33): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\src\DGG_LC\dgg_lc.cpp(124): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+          ..\src\DGG_LC\dgg_lc.cpp(247) : see reference to function template instantiation 'void check_errors<float>(const std::string &,const std::string &,const std::string &,const std::string &,const std::string &)' being compiled
+..\src\DGG_LC\dgg_lc.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_dijkstra.h(132): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+          G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_dijkstra.h(108) : while compiling class template member function 'int SparseGraph<T>::readDGGFileNotLoadAngle(const std::string &)'
+          with
+          [
+              T=float
+          ]
+          ..\src\DGG_LC\dgg_lc.cpp(103) : see reference to function template instantiation 'int SparseGraph<T>::readDGGFileNotLoadAngle(const std::string &)' being compiled
+          with
+          [
+              T=float
+          ]
+          G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_dijkstra.h(225) : see reference to class template instantiation 'SparseGraph<T>' being compiled
+          with
+          [
+              T=float
+          ]
+          ..\src\DGG_LC\dgg_lc.cpp(102) : see reference to class template instantiation 'LC_LLL<T>' being compiled
+          with
+          [
+              T=float
+          ]
+          ..\src\DGG_LC\dgg_lc.cpp(247) : see reference to function template instantiation 'void check_errors<float>(const std::string &,const std::string &,const std::string &,const std::string &,const std::string &)' being compiled
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_dijkstra.h(136): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\DGG_dijkstra.h(143): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+  BaseModel.cpp
+  Geometry.cpp
+  Point3D.cpp
+  RichModel.cpp
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\dgg_time.h(18): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\src\dgg_time.h(73): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+..\src\ICH\RichModel.cpp(332): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Finished generating code
+  SVG_LC.vcxproj -> G:\Research\Publication\DGG_and_SVG\FastDGG_Compiled_Solutions\x64\Release\DGG_LC.exe

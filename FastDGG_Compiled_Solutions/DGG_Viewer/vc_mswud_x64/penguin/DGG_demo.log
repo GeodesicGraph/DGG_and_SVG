@@ -1,0 +1,67 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(942,5): warning MSB8027: Two or more files with the name of Geometry.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\src\ICH\Geometry.cpp, ..\src\viewer\Geometry.cpp.
+  color.cpp
+  configfile.cpp
+  configitem_base.cpp
+  ipaddress.cpp
+..\3rdParty\ConfigLib\configitem_base.cpp(70): warning C4100: 'value' : unreferenced formal parameter
+..\3rdParty\ConfigLib\configitem_base.cpp(91): warning C4100: 'value' : unreferenced formal parameter
+  ExtendedWmlCamera.cpp
+..\3rdParty\RMS_LIB\ExtendedWmlCamera.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  Frame.cpp
+  IMesh.cpp
+..\3rdParty\RMS_LIB\Frame.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  IMeshBVTree.cpp
+..\3rdParty\RMS_LIB\IMesh.cpp(11): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+..\3rdParty\RMS_LIB\IMeshBVTree.cpp(11): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  MeshObject.cpp
+  MeshUtils.cpp
+  Texture.cpp
+..\3rdParty\RMS_LIB\Texture.cpp(11): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+..\3rdParty\RMS_LIB\MeshUtils.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  VectorUtil.cpp
+..\3rdParty\RMS_LIB\MeshObject.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  VFMeshRenderer.cpp
+  VFTriangleMesh.cpp
+..\3rdParty\RMS_LIB\VectorUtil.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+..\3rdParty\RMS_LIB\VFMeshRenderer.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  WmlExtPlane3.cpp
+..\3rdParty\RMS_LIB\VFTriangleMesh.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  WmlPolygon2.cpp
+  Communicate.cpp
+  dxfrenderer.cpp
+..\3rdParty\RMS_LIB\WmlExtPlane3.cpp(11): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\canvas\Panels.h(1): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory (..\src\canvas\Communicate.cpp)
+  main.cpp
+..\src\canvas\dxfrenderer.cpp(12): fatal error C1083: Cannot open include file: 'wx/wxprec.h': No such file or directory
+..\3rdParty\RMS_LIB\WmlPolygon2.cpp(11): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory
+  Panels.cpp
+  test_canvas.cpp
+  BaseModel.cpp
+..\src\canvas\Panels.cpp(1): fatal error C1083: Cannot open include file: 'wx/stattext.h': No such file or directory
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\canvas\main.h(1): fatal error C1083: Cannot open include file: 'wx/wx.h': No such file or directory (..\src\canvas\main.cpp)
+..\src\canvas\test_canvas.cpp(12): fatal error C1083: Cannot open include file: 'wx/wxprec.h': No such file or directory
+  Geometry.cpp
+  Point3D.cpp
+..\src\ICH\BaseModel.cpp(5): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  RichModel.cpp
+  arcball.cpp
+..\src\ICH\Geometry.cpp(4): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+..\src\ICH\Point3D.cpp(5): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  Geometry.cpp
+  Quat.cpp
+..\src\ICH\RichModel.cpp(5): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  RgbImage.cpp
+..\src\viewer\arcball.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  Viewer.cpp
+..\src\viewer\Geometry.cpp(4): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+..\src\viewer\Quat.cpp(2): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+..\src\viewer\Viewer.cpp(1): fatal error C1083: Cannot open include file: 'ConfigLib/configfile.h': No such file or directory
+..\src\viewer\RgbImage.cpp(106): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(107): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(108): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(132): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(133): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(146): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(147): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(148): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data
+..\src\viewer\RgbImage.cpp(149): warning C4244: '=' : conversion from 'int' to 'unsigned char', possible loss of data

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ICH">
+      <UniqueIdentifier>{63cc2b7c-7c66-4e67-b0a1-c54f1047df19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{d72b8620-b4b8-4e70-8d67-4c73177e54c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ICH\ExactMethodForDGP.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\ImprovedCHWithEdgeValve.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DGG_precompute\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DGG_precompute\dgg_precompute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Point3D.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\RichModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Geometry.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\BaseModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\ICHWithFurtherPriorityQueue.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\PreviousCHForFD.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\PreviousCH.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\ICHWithFurtherPriorityQueueForFD.cpp">
+      <Filter>ICH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ICH\ExactMethodForDGP.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\ImprovedCHWithEdgeValve.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DGG_precompute\dgg_precompute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_definition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\RichModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Point3D.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Geometry.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\BaseModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\ICHWithFurtherPriorityQueue.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\PreviousCHForFD.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\PreviousCH.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\ICHWithFurtherPriorityQueueForFD.h">
+      <Filter>ICH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

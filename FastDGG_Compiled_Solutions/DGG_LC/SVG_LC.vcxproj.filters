@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DGG_LC">
+      <UniqueIdentifier>{92546034-3ac5-4f05-985c-23edeb0125f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{28e175ac-26c0-499f-8871-16b46cd9c2dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\DGG_LC\dgg_lc.cpp">
+      <Filter>DGG_LC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\RichModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\BaseModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Geometry.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ICH\Point3D.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ICH\RichModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\BaseModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Geometry.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICH\Point3D.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WXN\dgg_dijkstra.h">
+      <Filter>DGG_LC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WXN\dgg_time.h">
+      <Filter>DGG_LC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dgg_definition.h">
+      <Filter>DGG_LC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

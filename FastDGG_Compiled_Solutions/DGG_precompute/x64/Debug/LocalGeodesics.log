@@ -1,0 +1,151 @@
+﻿  main.cpp
+  dgg_precompute.cpp
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(18): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(73): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(75): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(160): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(196): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(408): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(409): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(103): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(199): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(248): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(262): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(264): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(266): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(267): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(293): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(347): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\DGG_precompute\dgg_precompute.cpp(348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\DGG_precompute\dgg_precompute.cpp(349): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\DGG_precompute\dgg_precompute.cpp(382): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\DGG_precompute\dgg_precompute.cpp(659): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\src\DGG_precompute\dgg_precompute.cpp(606): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ..\src\DGG_precompute\dgg_precompute.cpp(664): note: see reference to function template instantiation 'void wxn_pruning<double>(const std::string &,double,std::string &,int,double &)' being compiled
+..\src\DGG_precompute\dgg_precompute.cpp(629): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+..\src\DGG_precompute\dgg_precompute.cpp(440): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ..\src\DGG_precompute\dgg_precompute.cpp(562): note: see reference to function template instantiation 'void readInputFile<double>(const std::string &,std::vector<std::vector<int,std::allocator<_Kty>>,std::allocator<_Ty>> &,std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,int &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::vector<int,std::allocator<int>>
+          ]
+  ..\src\DGG_precompute\dgg_precompute.cpp(664): note: see reference to function template instantiation 'void wxn_pruning<double>(const std::string &,double,std::string &,int,double &)' being compiled
+..\src\DGG_precompute\dgg_precompute.cpp(540): warning C4101: 'buf': unreferenced local variable
+  ..\src\DGG_precompute\dgg_precompute.cpp(574): note: see reference to function template instantiation 'void dijkstraPruningThread<T>(int,int,int,const std::vector<std::vector<int,std::allocator<_Kty>>,std::allocator<_Ty>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double)' being compiled
+          with
+          [
+              T=double,
+              _Kty=int,
+              _Ty=std::vector<int,std::allocator<int>>
+          ]
+..\src\DGG_precompute\dgg_precompute.cpp(686): warning C4503: 'std::_LaunchPad<_Target>::_LaunchPad': decorated name length exceeded, name was truncated
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double>,std::default_delete<std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double>>>
+          ]
+..\src\DGG_precompute\dgg_precompute.cpp(686): warning C4503: 'std::_Unique_ptr_base<_Ty,_Dx>::_Unique_ptr_base': decorated name length exceeded, name was truncated
+          with
+          [
+              _Ty=std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double>,
+              _Dx=std::default_delete<std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double>>
+          ]
+..\src\DGG_precompute\dgg_precompute.cpp(686): warning C4503: 'std::_Compressed_pair<_Dx,std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<_Kty>>,std::allocator<_Ty>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<_Ty,std::allocator<_Ty>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double> *,true>::_Compressed_pair': decorated name length exceeded, name was truncated
+          with
+          [
+              _Dx=std::default_delete<std::tuple<void (__cdecl *)(int,int,int,const std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,const std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>> &,std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>> &,double),int,int,int,std::reference_wrapper<std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>>,std::reference_wrapper<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>>,std::reference_wrapper<std::vector<std::vector<bool,std::allocator<bool>>,std::allocator<std::vector<bool,std::allocator<bool>>>>>,double>>,
+              _Kty=int,
+              _Ty=std::vector<int,std::allocator<int>>
+          ]
+  BaseModel.cpp
+..\src\ICH\BaseModel.cpp(219): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\src\ICH\BaseModel.cpp(226): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+..\src\ICH\BaseModel.cpp(230): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+..\src\ICH\BaseModel.cpp(231): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\src\ICH\BaseModel.cpp(232): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+..\src\ICH\BaseModel.cpp(233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\src\ICH\BaseModel.cpp(234): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+..\src\ICH\BaseModel.cpp(235): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\src\ICH\BaseModel.cpp(241): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+..\src\ICH\BaseModel.cpp(242): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\src\ICH\BaseModel.cpp(257): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  ..\src\ICH\BaseModel.cpp(257): note: consider using '%zd' in the format string
+..\src\ICH\BaseModel.cpp(257): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+  ..\src\ICH\BaseModel.cpp(257): note: consider using '%zd' in the format string
+..\src\ICH\BaseModel.cpp(388): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\src\ICH\BaseModel.cpp(409): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\src\ICH\BaseModel.cpp(425): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+..\src\ICH\BaseModel.cpp(444): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  ExactMethodForDGP.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+  Geometry.cpp
+  ICHWithFurtherPriorityQueue.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+..\src\ICH\ICHWithFurtherPriorityQueue.cpp(151): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+..\src\ICH\ICHWithFurtherPriorityQueue.cpp(203): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+..\src\ICH\ICHWithFurtherPriorityQueue.cpp(284): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+..\src\ICH\ICHWithFurtherPriorityQueue.cpp(335): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+..\src\ICH\ICHWithFurtherPriorityQueue.cpp(389): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+  ICHWithFurtherPriorityQueueForFD.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(160): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(196): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(408): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(409): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+..\src\ICH\ICHWithFurtherPriorityQueueForFD.cpp(84): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+  ImprovedCHWithEdgeValve.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+  Point3D.cpp
+  PreviousCH.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+  PreviousCHForFD.cpp
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\ExactMethodForDGP.h(49): warning C4056: overflow in floating-point constant arithmetic
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(160): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(164): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(196): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(199): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(408): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+g:\research\fyp ureca - graph theoretic methods on discrete geodesics problem\final codes & exes\fastdggoutputdistancenoexactdist\fastdgg\source code\src\ich\PreviousCHForFD.h(409): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  RichModel.cpp
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(18): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(73): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(75): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+G:\Research\FYP URECA - Graph Theoretic Methods on Discrete Geodesics Problem\Final Codes & Exes\FastDGGOutputDistanceNoExactDist\FastDGG\source code\src\dgg_time.h(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+..\src\ICH\RichModel.cpp(332): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'glut64.lib'
